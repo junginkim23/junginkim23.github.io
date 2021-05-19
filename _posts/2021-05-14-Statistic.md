@@ -72,19 +72,22 @@ PS. 경험주의자 입장에서는 100% 확신하는 지식은 없지만 통계
 ##### 8. sample하는 방법이 여러가지가 존재한다. 그 중 대표적인 4가지?
 
  
-    1. Simple random sampling
+1. Simple random sampling
         - 모집단에서 sampling을 무작위로 하는 방법이다.
     
-    <img src='https://i.imgur.com/6ryy4RF.png'>
-    2. systematic sampling
+<img src='https://i.imgur.com/6ryy4RF.png'>
+
+2. systematic sampling
         - 모집단에서 sampling을 할 때 규칙을 가지고 추출하는 방법이다. 1,6,9,11 번째.. 이렇게 말이다!
     
-    <img src='https://i.imgur.com/Katg3eS.png'>
-    3. Stratified random sampling
+<img src='https://i.imgur.com/Katg3eS.png'>
+
+3. Stratified random sampling
         - 모집단을 미리 여러 그룹으로 나누고, 그 그룹별로 무작위로 추출하는 방법이다. 쉽게 말해, 여론 조사를 위해 나이대별로 그룹을 나누고, 해당 그룹에서 랜덤으로 추출하는 것이다.
 
-    <img src='https://i.imgur.com/G0n76HL.png'>
-    4. Cluster sampling
+<img src='https://i.imgur.com/G0n76HL.png'>
+
+4. Cluster sampling
         -모집단을 미리 여러 그룹으로 나누고, 이후 특정 그룹을 무작위로 선택하는 방법이다.
     
     <img src='https://i.imgur.com/zN8jXow.png'>
@@ -126,7 +129,7 @@ PS. 경험주의자 입장에서는 100% 확신하는 지식은 없지만 통계
 ##### 15. 유의수준? 
 : 아래 그림에서 P 값이 역치보다 작다면 위험영역 안에 해당이 되고 이러한 경우 해당 가설이 더 이상 우연이라 할 수 없고, 뭔가 의미가 있다는 의미이므로 유의수준이라고 할 수 있게 된다.
 : 아래 그림에서 유의수준은 21,643과 22,156이라고 볼 수 있다.
-<img src='C:\Users\USER\Desktop\junginkim23.github.io-master\assets\distribution_gauss.PNG' width = 500>
+<img src='https:\\github.com\junginkim23\junginkim23.github.io\tree\master\assets\distribution_gauss.PNG' width = 500>
 
 ##### 16. False Positive & False Negative?
 - False Positive(거짓 양성): 통계상 실제로는 음성인데 검사 결과는 양성이라고 나오는 것이다. 
