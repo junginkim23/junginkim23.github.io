@@ -7,6 +7,7 @@ tag :
 author_profile : true
 sidebar_main : False  
 toc : true 
+use_math: true
 ---
 
 # Data Science - Statistics Day1
@@ -193,9 +194,9 @@ PS. 경험주의자 입장에서는 100% 확신하는 지식은 없지만 통계
 
 ${e}^{i\pi}+1=0$
 
-$$ z = \frac{x(관측값)-m(평균값)}{모집단의 표준편차} $$
+$ z = \frac{x(관측값)-m(평균값)}{모집단의 표준편차} $
 
-$$ t = \frac{x(관측값)-m(평균값)}{표본의 표준편차} $$
+$ t = \frac{x(관측값)-m(평균값)}{표본의 표준편차} $
 
 
 ##### 23. 95% confidence intervals
