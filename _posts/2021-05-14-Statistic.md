@@ -122,7 +122,7 @@ PS. 경험주의자 입장에서는 100% 확신하는 지식은 없지만 통계
 - z-scores have a mean of 0 and a standard deviation of 1?
     - z-score는 평균이 0이고 표준편차가 1이다.
 
-<img src='C:\Users\USER\Desktop\junginkim23.github.io-master\assets\z-score.PNG' width = 500>
+<img src='/assets/z-score.PNG' width = 500>
 - $z=\frac{관측값-평균}{시그마}$, 이 값이 의미하는 바는 평균으로부터 z standard devation만큼 위에 있다. 퍼져있는 위치?를 나타내느 것 같다.
 - 모든 관측값은 z-score를 가지고 있고 구할 수 있다.
 - 결국, z-score이라는 것은 _상대적 위치를 설명하는 척도_ 라고 할 수 있다.
@@ -140,7 +140,7 @@ PS. 경험주의자 입장에서는 100% 확신하는 지식은 없지만 통계
 - False Negative(거짓 음성): 실제로는 양성인데 검사 결과는 음성이라고 나오는 것이다.
     - 예를 들어, 어떤 메일이 스팸 메일인데 프로그램 검사 결과 스팸 메일이 아니라고 판정한다면 이것을 __거짓 음성__ 이라고 한다.
 
-<img src='https://github.com/junginkim23/junginkim23.github.io/blob/master/assets/FN_FP.PNG' width = 500>
+<img src='/assets/FN_FP.PNG' width = 500>
 
 ##### 17. P-value? 
 - 어떤 사건이 우연히 발생할 확률! 
@@ -157,16 +157,16 @@ PS. 경험주의자 입장에서는 100% 확신하는 지식은 없지만 통계
 
 ##### 20. 정규분포 vs 표준정규분포?
 - 정규분포
-<img src='https://github.com/junginkim23/junginkim23.github.io/blob/master/assets/정규분포표.PNG' width = 500>
+<img src='/assets/정규분포표.PNG' width = 500>
     - 이러한 정규분포를 통해 어떤 범위에 해당하는 비율을 알 수 있다.
         - 아래 그림을 보면, 키가 170~172 사이의 넓이를 나타내고 있고 해당 수치가 0.4가 나왔다면 전체 중에 40%가 170~172사이에 해당한다고 해석할 수 있습니다.
         - 결과적으로 해당 정규 분포의 전체 넓이는 총 확률 값 1과 동일하다고 생각하시면 됩니다.
-<img src='https://github.com/junginkim23/junginkim23.github.io/blob/master/assets/정규분포_넓이.PNG' width = 500>
+<img src='/assets/정규분포_넓이.PNG' width = 500>
 
 - 표준정규분포
     - 정규분포를 사용하는 이유는 해당 범위에 대한 비율을 알기 위해서 입니다. (정규분포에서 넓이를 통해 해당 범위에 대한 비율을 알 수 있습니다.) 하지만, 정규분포는 조사할 때마다 달라지기 때문에 표준적으로 사용할 수 있는 정규분포의 필요성을 느꼈고 이를 해결하기 위해 나온 것이 _표준정규분포_ 입니다.
     - 표준정규분포의 x축의 값은 z_score로 표현이 되는데 이것은 평균값에서 표준편차의 몇배만큼 떨어져 있는 숫자인가?를 의미합니다.
-    <img src='https://github.com/junginkim23/junginkim23.github.io/blob/master/assets/표준정규분포.PNG' width = 500>
+    <img src='/assets/표준정규분포.PNG' width = 500>
     - 기존 정규분포의 x축의 값을 평균에서 표준편차의 몇배만큼 떨어져 있는지로 바꿨다고 보시면 됩니다.
     - 결론은 우리가 알고 싶은 범위의 비율에 대해 알기 위해 사용하는 정규분포는 조사를 할 때마다 값이 달라지기 때문에 표준으로 사용할 수 있는 정규분포의 필요성을 느꼈습니다. 이러한 필요를 충족시키기 위해 표준정규분포가 나왔고 해당 범위를 z 값으로 바꿔주고 바뀐 z값의 범위에 따라 사전에 정의되어 있는 구간별 확률값을 통해 우리가 알고 싶어하는 비율 수치를 알 수 있게 되는 것입니다.
 
@@ -190,7 +190,7 @@ PS. 경험주의자 입장에서는 100% 확신하는 지식은 없지만 통계
 - t 분포는 자유도에 영향을 많이 받는데, 자유도가 증가함에 따라 점점 더 표준 정규 분포의 형태와 유사하게 된다.
 - 그래서 표본의 크기가 커질 수록 자유도가 증가하게 되고 이에 따라 t 분포는 표준정규분포와 유사하게 바뀌고 결국 표준오차가 감소하게 된다. 왜냐하면, 표준오차는 표본 통계량의 표준 편차이기 때문이다.
 
-<img src='https://github.com/junginkim23/junginkim23.github.io/blob/master/assets/t분포.PNG' width = 500>
+<img src='/assets/t분포.PNG' width = 500>
 
 ##### 23. 95% confidence intervals
 - 95% confidence intervals에서 z의 값은 1.96인데 1.96가 동일한 t 값을 가지기 위해서 자유도는 무한의 값을 가져야 한다. 따라서, 종종 표본의 크기가 30이상이면 그냥 표준정규분포를 사용해라라는 말이 있는데 표본의 크기가 30일 때 t 값은 2.042이다. 이 값도 1.96에 비해 꽤 크다고 볼 수 있다. 따라서 우리가 정규분포로부터 표본을 추출해서 해달 표본의 표준편차를 사용할 것이라면 t 분포로부터의 값을 사용해라! 표준정규분포로부터가 아닌! 
