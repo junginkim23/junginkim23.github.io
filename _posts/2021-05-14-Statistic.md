@@ -121,6 +121,7 @@ PS. 경험주의자 입장에서는 100% 확신하는 지식은 없지만 통계
 - P(0<Z<z)의 의미는 표준 정규 분포에서 0부터 z라는 값까지에 속할 확률을 말한다.
 - z-scores have a mean of 0 and a standard deviation of 1?
     - z-score는 평균이 0이고 표준편차가 1이다.
+
 <img src='C:\Users\USER\Desktop\junginkim23.github.io-master\assets\z-score.PNG' width = 500>
 - $z=\frac{관측값-평균}{시그마}$, 이 값이 의미하는 바는 평균으로부터 z standard devation만큼 위에 있다. 퍼져있는 위치?를 나타내느 것 같다.
 - 모든 관측값은 z-score를 가지고 있고 구할 수 있다.
@@ -130,7 +131,7 @@ PS. 경험주의자 입장에서는 100% 확신하는 지식은 없지만 통계
 - 아래 그림에서 P 값이 역치보다 작다면 위험영역 안에 해당이 되고 이러한 경우 해당 가설이 더 이상 우연이라 할 수 없고, 뭔가 의미가 있다는 의미이므로 유의수준이라고 할 수 있게 된다.
 - 아래 그림에서 유의수준은 21,643과 22,156이라고 볼 수 있다.
 
-<img src='https://github.com/junginkim23/junginkim23.github.io/blob/master/assets/distribution_gauss.PNG' width = 500>
+<img src='/assets/distribution_gauss.PNG' width = 500>
 
 ##### 16. False Positive & False Negative?
 - False Positive(거짓 양성): 통계상 실제로는 음성인데 검사 결과는 양성이라고 나오는 것이다. 
