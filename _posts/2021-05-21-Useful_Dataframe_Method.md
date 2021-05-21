@@ -12,6 +12,8 @@ use_math: true
 
 **Data Science - Useful Dataframe Method**
 
+---
+
 **1. data indexing (iloc)**
 
 ```py
@@ -22,11 +24,15 @@ data1 = pd.read_csv(url1).iloc[:,1:]
 data1 = data1.drop(data1.columns[0],axis=1)
 ```
 
+---
+
 **2. Add index's name** 
 
 ```py
 df.rename_axis('추가하고 싶은 명')
 ```
+
+---
 
 **3. 데이터 프레임 내 특정 컬럼의 특정 데이터 값만을 뽑고 싶은 경우**
 
@@ -37,6 +43,8 @@ df_join = join_data.loc[(join_data['country']=='United States') | (join_data['co
 #concat을 사용해 country 컬럼에서 united states와 china의 특정 값만을 추출
 usa_china_data = pd.concat([join_data[join_data['country'] == 'United States'],join_data[join_data['country'] == 'China']],axis=0)
 ```
+
+---
 
 **4. dataframe 정렬 방법**
 
@@ -50,6 +58,8 @@ df = df.sort_values()
 df = df.sort_values(ascending = False)#내림차순으로 정렬
 ```
 
+---
+
 **5. df.dropna(how='any' or 'all')**
 
 ```py
@@ -59,6 +69,8 @@ df.dropna(how='any')
 df.dropna(how='all')
   - 만약 지정된 행이나 열(axis=0 or 1)에 모든 값이 na일때 그 행 or 열 삭제!
 ```
+
+---
 
 **6.iloc & loc을 사용해야 하는 이유**
 
