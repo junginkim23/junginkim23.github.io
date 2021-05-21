@@ -68,7 +68,7 @@ use_math: true
 
 ```ex) 표준편차(standard deviation), 사분위(quartile)```
 
-**6. 추리 통계(Inferential Statistics)?**
+##### 6. 추리 통계(Inferential Statistics)?
 
 ```수집한 데이터를 기반으로 어떠한 것을 추리하고 예측하는데 사용하는 기법```
 

@@ -14,7 +14,7 @@ use_math: true
 
 ---
 
-**1. data indexing (iloc)**
+##### *1. data indexing (iloc)*
 
 ```py
 #읽어온 데이터프레임에서 column 특정 범위만 가지고 온다.
@@ -26,7 +26,7 @@ data1 = data1.drop(data1.columns[0],axis=1)
 
 ---
 
-**2. Add index's name** 
+##### *2. Add index's name*
 
 ```py
 df.rename_axis('추가하고 싶은 명')
@@ -34,7 +34,7 @@ df.rename_axis('추가하고 싶은 명')
 
 ---
 
-**3. 데이터 프레임 내 특정 컬럼의 특정 데이터 값만을 뽑고 싶은 경우**
+##### *3. 데이터 프레임 내 특정 컬럼의 특정 데이터 값만을 뽑고 싶은 경우*
 
 ```py
 #loc을 사용해 country 컬럼에서 united states와 china의 특정 값만을 추출
@@ -46,7 +46,7 @@ usa_china_data = pd.concat([join_data[join_data['country'] == 'United States'],j
 
 ---
 
-**4. dataframe 정렬 방법**
+##### *4. dataframe 정렬 방법*
 
 ```py
 #인덱스를 기준으로 오름차순으로 정렬된다.
@@ -60,7 +60,7 @@ df = df.sort_values(ascending = False)#내림차순으로 정렬
 
 ---
 
-##### 5. df.dropna(how='any' or 'all')
+##### *5. df.dropna(how='any' or 'all')*
 
 ```py
 df.dropna(how='any')
@@ -72,7 +72,7 @@ df.dropna(how='all')
 
 ---
 
-##### 6.iloc & loc을 사용해야 하는 이유
+##### *6.iloc & loc을 사용해야 하는 이유*
 
 ```py
 #아래와 같이 인덱싱을 하게 되면 경고 메세지가 뜨는데,
