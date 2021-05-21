@@ -2,8 +2,8 @@
 layout: single
 permalink: /about/
 title: "Kim Jung In"
-header:
-  overlay_image: /assets/who.jpg
+# header:
+#   overlay_image: /assets/who.jpg
 author_profile: true
 ---
 
