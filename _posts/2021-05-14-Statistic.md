@@ -48,8 +48,8 @@ use_math: true
 <img src='https://www.simplypsychology.org/boxplot.jpg?ezimgfmt=rs:382x196/rscb24/ng:webp/ngcb24' width = 500>
 
 
-    - violin plot
-        boxplot을 개량화한 시각화 방법이다. 그림에서 보는 것처럼 데이터의 분포를 쉽게 확인할 수 있다.
+- violin plot
+    - boxplot을 개량화한 시각화 방법이다. 그림에서 보는 것처럼 데이터의 분포를 쉽게 확인할 수 있다.
 
 <img src='https://miro.medium.com/max/1040/1*TTMOaNG1o4PgQd-e8LurMg.png' >
 
@@ -57,16 +57,18 @@ use_math: true
 ##### 5. 기술 통계 기법의 종류 2가지
 
 1. 데이터의 집중화 경향에 대한 기법
+
 ```우리가 수집한 데이터를 대표하는 값이 무엇인지? 또는 어떤 값에 집중되어 있는지 다루는 기법```
     
 ```ex) 평균(mean), 중앙값(median), 최빈값(mode)```
 
 2. 데이터가 어떻게 퍼져 있는지 확인하는 기법 
+
 ```이를 _분산도_ 라고 하는데 말 그대로 데이터가 전반적으로 어떻게 분포되어 있는지 설명하는 방법이다.```
 
 ```ex) 표준편차(standard deviation), 사분위(quartile)```
 
-##### 6. 추리 통계(Inferential Statistics)?
+**6. 추리 통계(Inferential Statistics)?**
 
 ```수집한 데이터를 기반으로 어떠한 것을 추리하고 예측하는데 사용하는 기법```
 
