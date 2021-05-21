@@ -60,7 +60,7 @@ df = df.sort_values(ascending = False)#내림차순으로 정렬
 
 ---
 
-**5. df.dropna(how='any' or 'all')**
+##### 5. df.dropna(how='any' or 'all')
 
 ```py
 df.dropna(how='any')
@@ -72,7 +72,7 @@ df.dropna(how='all')
 
 ---
 
-**6.iloc & loc을 사용해야 하는 이유**
+##### 6.iloc & loc을 사용해야 하는 이유
 
 ```py
 #아래와 같이 인덱싱을 하게 되면 경고 메세지가 뜨는데,
