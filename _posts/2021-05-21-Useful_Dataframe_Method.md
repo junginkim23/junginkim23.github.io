@@ -10,7 +10,7 @@ toc : true
 use_math: true
 ---
 
-**Useful Dataframe Method**
+**Data Science - Useful Dataframe Method**
 
 **1. data indexing (iloc)**
 
@@ -66,7 +66,7 @@ df.dropna(how='all')
 #아래와 같이 인덱싱을 하게 되면 경고 메세지가 뜨는데,
 join_data[join_data['time']==2019][join_data['country']=='South Korea']['PPP']
 
+#ouput
 /usr/local/lib/python3.7/dist-packages/ipykernel_launcher.py:2: UserWarning: Boolean Series key will be reindexed to match DataFrame index.
-
 #이러한 경고 메세지를 안 받기 위해서는 iloc이나 loc을 사용해서 인덱싱을 해줘야 한다.
 ```
