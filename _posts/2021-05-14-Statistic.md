@@ -142,7 +142,7 @@ _4. Cluster sampling_
 
 <img src='/assets/z-score.PNG' width = 500>
 
-**$$ z=\frac{관측값-평균}{시그마} $$**
+$$ z=\frac{관측값-평균}{시그마} $$
 
 ```이 값이 의미하는 바는 평균으로부터 z standard devation만큼 위에 있다. 퍼져있는 위치?를 나타내느 것 같다.```
 
