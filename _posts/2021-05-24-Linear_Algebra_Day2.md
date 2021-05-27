@@ -1,5 +1,5 @@
 ---
-title : "Linear Algebra"
+title : "[Data Science] - Linear Algebra"
 category :
     - Data Science 
 tag : 

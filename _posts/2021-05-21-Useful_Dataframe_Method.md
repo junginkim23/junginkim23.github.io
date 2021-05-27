@@ -11,7 +11,7 @@ toc : true
 use_math: true
 ---
 
-**Data Science - Useful Dataframe Method**
+**Python - Useful Dataframe Method**
 
 ---
 
