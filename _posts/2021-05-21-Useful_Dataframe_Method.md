@@ -1,9 +1,10 @@
 ---
-title : "Useful Dataframe Method"
+title : "[Python] - dataframe"
 category :
     - Data Science 
 tag : 
     - Pandas
+    - dataframe
 author_profile : true
 sidebar_main : False  
 toc : true 
@@ -30,7 +31,12 @@ data1 = data1.drop(data1.columns[0],axis=1)
 
 ```py
 df.rename_axis('추가하고 싶은 명')
+df.rename_axis('index')
+
+# output
 ```
+
+<img src='/assets/dataframe2.PNG' width = 100>
 
 ---
 
@@ -82,3 +88,13 @@ join_data[join_data['time']==2019][join_data['country']=='South Korea']['PPP']
 /usr/local/lib/python3.7/dist-packages/ipykernel_launcher.py:2: UserWarning: Boolean Series key will be reindexed to match DataFrame index.
 #이러한 경고 메세지를 안 받기 위해서는 iloc이나 loc을 사용해서 인덱싱을 해줘야 한다.
 ```
+
+##### *7. 데이터프레임 컬럼 인덱싱*
+```py 
+df[['컬럼명1','컬럼명2']] 
+
+#output
+해당 컬럼명만을 포함하는 데이터프레임을 인덱싱한다.
+```
+<img src='/assets/dataframe2.PNG' width = 100>
+

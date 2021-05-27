@@ -4,6 +4,8 @@ category :
     - Data Science 
 tag : 
     - Linear Algebra
+    - covariance
+    - Linear Projection
 author_profile : true
 sidebar_main : False  
 toc : true 
