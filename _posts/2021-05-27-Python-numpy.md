@@ -139,8 +139,6 @@ array([[[1, 2],
        [[5, 6],
         [7, 8]]])
 ```
-
-
 ##### np.linalg.matrix_rank(array)
 ```py
 array의 rank를 반환해준다.
