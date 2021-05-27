@@ -4,14 +4,15 @@ category :
     - Data Science 
 tag : 
     - Linear Algebra
-    - dataframe
+    - vector
+    - matrix
 author_profile : true
 sidebar_main : False  
 toc : true 
 use_math: true
 ---
 
-# Data Science - Linear_Algebra Day2
+# Data Science - Linear_Algebra Day1
 
 ## [알고 지나가야 하는 개념]
 - Linear Algebra?
@@ -52,10 +53,6 @@ use_math: true
     - 벡터 x를 *3, *0.5 등 방향은 그대로고 길이를 늘이거나 줄이거나 하는 것을 스케일링이라고 한다. 그리고 상수들은 스칼라라고 지칭한다.
 
 
-##### numpy의 유용한 메소드
-```py
-1. np.ones(5) #output: [1.0,1.0,1.0,1.0,1.0]
 
-2. 
 ```
 
