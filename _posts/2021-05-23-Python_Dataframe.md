@@ -98,3 +98,18 @@ df[['컬럼명1','컬럼명2']]
 ```
 <img src='/assets/dataframe2.PNG' width = 100>
 
+##### *dataframe내의 데이터로 공분산, 상관계수 구하기*
+```py
+#공분산
+df.cov()
+#output:
+        v      w
+v  1363.7   71.7
+w    71.7  149.7
+
+#상관계수
+df.corr()
+#output:
+         v        w
+v  1.00000  0.15869
+w  0.15869  1.00000

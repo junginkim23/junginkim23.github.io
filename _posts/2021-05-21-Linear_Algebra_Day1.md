@@ -53,6 +53,35 @@ use_math: true
     - 벡터 x를 *3, *0.5 등 방향은 그대로고 길이를 늘이거나 줄이거나 하는 것을 스케일링이라고 한다. 그리고 상수들은 스칼라라고 지칭한다.
 
 
+##### 선형 회귀 
+```py
+from scipy import stats
+stats.linregress([1, 3, 5, 7, 9], [2, 8, 14, 20, 26])
 
+#output:
+LinregressResult(slope=3.0, intercept=-1.0, rvalue=1.0, pvalue=1.2004217548761408e-30, stderr=0.0)
 ```
+scipy라는 라이브러리에 선형 회귀를 사용할 수 있게 이미 구현되어 있다는 것을 알고 넘어가자.
+
+선형 회귀(by numpy)에 대해 궁금하다면 [이곳](https://woowabros.github.io/study/2018/08/01/linear_regression_qr.html)을 참조하자.
+
+
+##### Dimensionality Reduction : PCA, SVD 
+아마 이번 section에서 가장 중요한 것이 **차원 축소**라고 생각한다.
+
+차원 축소를 하는 가장 간단한 이유는 **계산량**을 줄이기 위한 것으로 생각하면 쉽다. 혹은 사이즈가 큰 데이터 셋을 사이즈가 작은 부분으로 나누는 작업으로 생각하면 된다.
+
+
+##### [잠깐 쉬는 타임~]
+**colab에 library** 추가하는 법!
+```py
+!pip3 install ~~~ 
+
+ex)
+!pip3 install imageio
+!pip3 install skimage
+!pip3 install scikit-image
+```
+##### 스칼라?
+
 
