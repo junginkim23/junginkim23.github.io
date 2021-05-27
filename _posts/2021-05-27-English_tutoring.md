@@ -35,7 +35,9 @@ compliment : 칭찬하다
 **수정 받은 표현**
 
 틀린 표현: <span style="color:red">When it operated, i watched it with my girlfriend.</span>
+
 옳은 표현: <span style="color:blue">When it was shown (at the theaters), i watched it with my girlfriend.</span>
 
 틀린 표현: <span style="color:red">It is like a trend</span>
+
 옳은 표현: <span style="color:blue">It is like a trend/It is trendy.</span>
