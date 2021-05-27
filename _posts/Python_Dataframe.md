@@ -1,7 +1,7 @@
 ---
 title : "[Python] - dataframe"
 category :
-    - Data Science 
+    - Python
 tag : 
     - Pandas
     - dataframe

@@ -1,7 +1,7 @@
 ---
 title : "[Python] - numpy"
 category :
-    - Data Science 
+    - Python
 tag : 
     - Linear Algebra
     - vector 
