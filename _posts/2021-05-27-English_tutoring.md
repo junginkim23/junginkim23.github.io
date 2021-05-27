@@ -1,5 +1,5 @@
 ---
-title : "English_tutoring(Today Expressions)"
+title : "tutoring(05.27)"
 category :
     - English
 tag : 
@@ -38,3 +38,4 @@ compliment 단어를 명사, 동사 모두 사용 가능하다.
 beer belly : 술 먹어서 배 튀어나온 사람
 
 compliment : 칭찬하다
+```
