@@ -99,6 +99,7 @@ df[['컬럼명1','컬럼명2']]
 <img src='/assets/dataframe2.PNG' width = 100>
 
 ##### *dataframe내의 데이터로 공분산, 상관계수 구하기*
+
 ```py
 #공분산
 df.cov()
@@ -113,3 +114,12 @@ df.corr()
          v        w
 v  1.00000  0.15869
 w  0.15869  1.00000
+```
+
+##### 데이터프레임 정렬
+
+1. 컬럼 값을 기준으로 정렬
+```py
+df.sort_values('기준 컬럼',ascending = TRUE OR FALSE) 
+#ascending : 오름차순, 내림차순 설정 파라미터
+```
