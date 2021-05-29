@@ -131,9 +131,9 @@ df = df.loc[:,['Name','Genre']].head(5)
 14191                 Lego Star Wars: The Force Awakens        Action
 ```
 
+```py
 1. 컬럼 값을 기준으로 정렬
 
-```py
 df.sort_values('Genre',ascending = TRUE OR FALSE) 
 #ascending : 오름차순, 내림차순 설정 파라미터
 
@@ -145,9 +145,10 @@ df.sort_values('Genre',ascending = TRUE OR FALSE)
 3346         Harry Potter and the Chamber of Secrets  Action
 8355                                      Darksiders  Action
 ```
-2. 특정 컬럼을 기준으로 시리즈를 정렬
 
 ```py
+2. 특정 컬럼을 기준으로 시리즈를 정렬
+
 df['Genre'].sort_values()
 
 #output:
@@ -159,9 +160,9 @@ df['Genre'].sort_values()
 Name: Genre, dtype: object
 ```
 
+```py
 3. 여러 컬럼을 기준으로 정렬
 
-```py
 df.sort_values(['Name','Genre'],ascending = False) # 내림차순
 
 #output:
