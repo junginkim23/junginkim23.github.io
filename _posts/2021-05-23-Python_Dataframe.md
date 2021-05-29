@@ -118,8 +118,57 @@ w  0.15869  1.00000
 
 ##### 데이터프레임 정렬
 
-1. 컬럼 값을 기준으로 정렬
 ```py
-df.sort_values('기준 컬럼',ascending = TRUE OR FALSE) 
+#기준 데이터프레임
+df = df.loc[:,['Name','Genre']].head(5)
+
+#output:
+                                                   Name         Genre
+6774                             Imagine: Makeup Artist    Simulation
+5204                   Brothers Conflict: Precious Baby        Action
+9921   Phantasy Star Online 2 Episode 4: Deluxe Package  Role-Playing
+14921  Phantasy Star Online 2 Episode 4: Deluxe Package  Role-Playing
+14191                 Lego Star Wars: The Force Awakens        Action
+```
+
+1. 컬럼 값을 기준으로 정렬
+
+```py
+df.sort_values('Genre',ascending = TRUE OR FALSE) 
 #ascending : 오름차순, 내림차순 설정 파라미터
+
+#output:
+                                                Name   Genre
+15785                                  Legend of Kay  Action
+6436   Harry Potter and the Deathly Hallows - Part 1  Action
+503                   Rudolph the Red-Nosed Reindeer  Action
+3346         Harry Potter and the Chamber of Secrets  Action
+8355                                      Darksiders  Action
+```
+2. 특정 컬럼을 기준으로 시리즈를 정렬
+
+```py
+df['Genre'].sort_values()
+
+#output:
+15785    Action
+6436     Action
+503      Action
+3346     Action
+8355     Action
+Name: Genre, dtype: object
+```
+
+3. 여러 컬럼을 기준으로 정렬
+
+```py
+df.sort_values(['Name','Genre'],ascending = False) # 내림차순
+
+#output:
+                               Name     Genre
+213    ¡Shin Chan Flipa en colores!  Platform
+14716  uDraw Studio: Instant Artist      Misc
+3009   uDraw Studio: Instant Artist      Misc
+13679                  uDraw Studio      Misc
+3431     thinkSMART: Chess for Kids      Misc
 ```
