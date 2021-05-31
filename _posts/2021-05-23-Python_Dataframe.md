@@ -173,3 +173,59 @@ df.sort_values(['Name','Genre'],ascending = False) # 내림차순
 13679                  uDraw Studio      Misc
 3431     thinkSMART: Chess for Kids      Misc
 ```
+
+##### *10. 데이터프레임 복수 조건 설정*
+
+```py
+
+1. and 
+df[(df['조건 컬럼1'] > 10) & (df['조건 컬럼2'] < 10)]
+
+#output: 해당 조건 컬럼을 만족하는 데이터프레임 추출. 
+
+2. or 
+df[(df['조건 컬럼1'] > 10) | (df['조건 컬럼2'] < 10)]
+
+ps) 연산자 우선 순위
+NOT(~) > AND(&) > OR(|)
+
+```
+
+##### *11. 데이터프레임 합치기*
+
+```py
+#열을 기준으로 concat
+pd.concat(['데이터프레임1','데이터프레임2'],axis=1) 
+
+#행을 기준으로 concat
+pd.concat(['데이터프레임1','데이터프레임2'],axis=0) #axis = 0은 default 값
+
+#concat parameter keys
+pd.concat(['데이터프레임1','데이터프레임2'],keys = ['key명1','key명2'])
+#output:
+```
+
+##### *np.where**
+
+```py
+numpy.where(numpy배열 == 찾을 값) or numpy.where(pd.Series형태 == 찾을 값)
+np.where(np.array([1,2,3])==3)[0]
+#output: array([2])
+
+s1 = pd.Series([np.nan,4,4,7,9])
+s2 = pd.Series([1,np.nan,3,np.nan,np.nan])
+s3 = pd.Series([10,3,4,5,np.nan])
+print(s1)
+#output:
+0    NaN
+1    4.0
+2    4.0
+3    7.0
+4    9.0
+dtype: float64
+
+np.where(pd.isnull(s1),s3,s1)
+#output: array([10.,  4.,  4.,  7.,  9.]) 
+#s1내부에 null 값인 인덱스에 해당하는 s3의 값과 s1을 결합. 즉, 10.0은 s3의 해당 인덱스의 원소이다. 나머지 원소는 s1의 내부 원소
+
+```
