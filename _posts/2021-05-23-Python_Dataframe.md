@@ -205,13 +205,17 @@ pd.concat(['데이터프레임1','데이터프레임2'],keys = ['key명1','key�
 #output:
 ```
 
-##### *np.where**
+##### *12. np.where*
 
 ```py
+
+- 인덱스 찾기
 numpy.where(numpy배열 == 찾을 값) or numpy.where(pd.Series형태 == 찾을 값)
 np.where(np.array([1,2,3])==3)[0]
 #output: array([2])
 
+
+- 데이터 결합
 s1 = pd.Series([np.nan,4,4,7,9])
 s2 = pd.Series([1,np.nan,3,np.nan,np.nan])
 s3 = pd.Series([10,3,4,5,np.nan])
