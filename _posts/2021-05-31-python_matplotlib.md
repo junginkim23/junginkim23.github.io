@@ -50,3 +50,13 @@ ax2.set(xlabel='month',title="월별 대여량")
 ax3.set(xlabel='day', title="일별 대여량")
 ax4.set(xlabel='hour', title="시간별 대여량")
 ```
+
+##### 3. 선 그래프 
+
+```py
+#선 그래프 생성 
+plt.plot(x,y,label = '라벨 이름')
+
+#범례 표시
+plt.legend()
+```
