@@ -233,3 +233,16 @@ np.where(pd.isnull(s1),s3,s1)
 #s1내부에 null 값인 인덱스에 해당하는 s3의 값과 s1을 결합. 즉, 10.0은 s3의 해당 인덱스의 원소이다. 나머지 원소는 s1의 내부 원소
 
 ```
+
+##### *13. one hot encoding*
+```py
+# one hot encoding
+select_column = ['genre']
+def one_hot_encoding(train_data): 
+for cate in select_column: 
+     prefix=cate
+     one_hot_encoding = pd.get_dummies(train_data[cate],prefix=prefix)
+     train_data = pd.concat([pd.DataFrame(train_data),one_hot_encoding],axis = 1)
+     train_data = train_data.drop(cate,axis=1)
+   return train_data.copy()
+```
