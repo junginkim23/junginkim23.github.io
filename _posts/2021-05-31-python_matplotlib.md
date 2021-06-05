@@ -60,3 +60,40 @@ plt.plot(x,y,label = '라벨 이름')
 #범례 표시
 plt.legend()
 ```
+
+##### 4. 한글 깨짐 현상 해결
+
+```py
+#코드 실행 후 런타임 다시 시작하면 한글 글자 깨짐 오류가 해결된다.
+!sudo apt-get install -y fonts-nanum
+!sudo fc-cache -fv
+!rm ~/.cache/matplotlib -rf
+
+#폰트를 바꿔서 한글 깨짐 현상 해결
+import matplotlib as mpl
+
+# 폰트 변환
+# Windows
+mpl.rc("font", family='Malgun Gothic')
+
+# MacOS
+mpl.rc("font", family='AppleGothic')
+
+# 마이너스 사인 수정, 특정 축의 범위 중에 (-)값의 '-' 깨짐 현상 해결
+mpl.rc('axes', unicode_minus=False)
+```
+
+##### 5. 그래프 화질 설정 
+
+```py
+import matplotlib as mpl
+
+# 첫번째 방법
+%config InlineBackend.figure_format='retina'
+
+# 두번째 방법
+from IPython.display import set_matplotlib_formats
+set_matplotlib_formats('retina')
+```
+
+
