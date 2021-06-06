@@ -60,7 +60,7 @@ y = pd.DataFrame([[30,10],[5,4]],index=['A','C'],columns=['X','Z'])
 
 pd.concat([x,y],axis=1)
 ```
-<img src='/assets/a.png' width = 300 >
+<img src='/assets/a.PNG' width = 300 >
 
 >위의 그림을 보면 x 데이터프레임에는 C라는 index가 없기 때문에 해당 feature에 NaN이 들어갔고 y 데이터프레임에는 B라는 인덱스가 없기 때문에 해당 feature에 NaN 값이 들어간 것을 확인할 수 있다.
 
