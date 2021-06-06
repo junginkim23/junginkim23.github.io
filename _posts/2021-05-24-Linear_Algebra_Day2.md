@@ -14,7 +14,7 @@ use_math: true
 
 # Data Science - Linear_Algebra
 
-<img src='/assets/datascience.jpg' width = 1000 >
+<img src='/assets/datascience.png' width = 1000 height = 500 >
 
 ## [금일의 개념정리] 
 - base
