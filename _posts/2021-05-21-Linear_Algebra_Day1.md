@@ -12,7 +12,9 @@ toc : true
 use_math: true
 ---
 
-# Data Science - Linear_Algebra Day1
+# Data Science - Linear_Algebra 
+
+<img src='/assets/datascience.jpg' width = 1000 >
 
 ## [알고 지나가야 하는 개념]
 - Linear Algebra?

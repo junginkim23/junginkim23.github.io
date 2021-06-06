@@ -12,6 +12,8 @@ use_math: true
 
 # Data Science - Statistics Day1
 
+<img src='/assets/datascience.jpg' width = 1000 >
+
 ## 학습 목표 _ 이건 꼭 알고가자! 
 - Estimation / Sampling의 목적과 방법에 대해서 이해한다.
 - 가설검정에 대해서 이해한다.

@@ -12,7 +12,9 @@ toc : true
 use_math: true
 ---
 
-# Data Science - Linear_Algebra Day2
+# Data Science - Linear_Algebra
+
+<img src='/assets/datascience.jpg' width = 1000 >
 
 ## [금일의 개념정리] 
 - base
