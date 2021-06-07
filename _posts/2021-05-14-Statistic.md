@@ -12,7 +12,7 @@ tag :
 toc : true 
 toc_sticky: true
 
-last_modified_at: 2019-07-03T12:40-13:00
+last_modified_at: 2021-06-07T12:40-13:00
 ---
 
 <img src='/assets/datascience.png' width = 1000 height = 800 >
