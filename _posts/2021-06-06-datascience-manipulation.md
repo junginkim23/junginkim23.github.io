@@ -134,9 +134,9 @@ df3['CAPEX'] = pd.to_numeric(df3['CAPEX'])
 print('CAPEX type:',df3['CAPEX'].dtypes) #output: CAPEX type: int64
 ```
 
->데이터프레임 필터링!
+#### 2. 데이터프레임 필터링!
 
-1. 수치형 데이터 필터링
+##### 1. 수치형 데이터 필터링
 
 ```py
 #필터링 조건! () 씌우는 것 주의하자.
@@ -171,7 +171,7 @@ A[((A['ID']>2) & (A['ID']<=4))]
 
 <img src='/assets/123.PNG' width = 300  >
 
-2. 범주형 데이터 필터링 
+##### 2. 범주형 데이터 필터링 
 
 >isin() or df['컬럼명']=='데이터 명'
 
@@ -183,7 +183,9 @@ A[A['이름']=='김지영']
 
 <img src='/assets/isin.PNG' width = 300  >
 
->df.groupby('컬럼명').mean or sum ....
+> groupby
+
+**df.groupby('컬럼명').mean or sum ....**
 
 특정 컬럼을 기준으로 다른 수치형 데이터의 mean 값 또는 전체 합 값을 보여준다. 
 
