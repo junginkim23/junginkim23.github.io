@@ -6,6 +6,7 @@ category :
         - Statistics
 tag : 
     - Statistics
+toc: true
 author_profile : true
 sidebar_main : False  
 toc : true 
