@@ -15,6 +15,8 @@ toc : true
 use_math: true
 ---
 
+<img src='/assets/python.jpg' width = 1000 height = 800 >
+
 ### numpy의 유용한 메소드
 
 ##### np.ones
