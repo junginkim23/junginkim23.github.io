@@ -43,7 +43,7 @@ use_math: true
 
 ##### 1-2. 미분 공식
 
->1. $f'(x) = 상수 -> f'(x) = 0$
+>$f'(x) = 상수 -> f'(x) = 0$
 
 ```py
 
@@ -68,7 +68,7 @@ derivative(f,1, dx=1e-6) == numerical_derivative(f, 1)
 #output: True
 ```
 
->2. $f(x) = ax^n  --> f'(x) = anx^(n-1)$
+> $f(x) = ax^n  --> f'(x) = anx^(n-1)$
 
 해당 미분법은 일명 **Power Rule**이라고 불리운다.
 
@@ -94,9 +94,9 @@ derivative(f,2, dx=1e-5) == numerical_derivative(f, 2)  #output: False
 #delta X의 값은 같지만 Rounding 에러로 인해 두 결과가 미묘하게 다른 것을 확인하실 수 있습니다.
 ```
 
->3. $f(x) = e^x --> f'(x) = e^x$
+>$f(x) = e^x --> f'(x) = e^x$
 
->4. $f(x) = lnx --> f'(x) = 1/x$
+>$f(x) = lnx --> f'(x) = 1/x$
 
 ##### 1-3. 편미분
 
