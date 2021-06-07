@@ -12,9 +12,7 @@ toc : true
 use_math: true
 ---
 
-# Data Science - Linear_Algebra 
-
-<img src='/assets/datascience.png' width = 1000 height = 500 >
+<img src='/assets/datascience.png' width = 1000 height = 800 >
 
 ## [알고 지나가야 하는 개념]
 - Linear Algebra?

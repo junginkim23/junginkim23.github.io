@@ -10,7 +10,7 @@ toc : true
 use_math: true
 ---
 
-### Feature Engineering  
+<img src='/assets/datascience.png' width = 1000 height = 800 >
 
 ##### 1. 개요
 
@@ -156,6 +156,8 @@ def toInt(string):
 df['자산총계']
 #output:
 0    108,464
+
+
 1    106,314
 2    107,121
 3    108,594

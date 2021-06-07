@@ -10,9 +10,7 @@ toc : true
 use_math: true
 ---
 
-# Data Science - Statistics Day1
-
-<img src='/assets/datascience.png' width = 1000 height = 500 >
+<img src='/assets/datascience.png' width = 1000 height = 800 >
 
 ## 학습 목표 _ 이건 꼭 알고가자! 
 - Estimation / Sampling의 목적과 방법에 대해서 이해한다.
