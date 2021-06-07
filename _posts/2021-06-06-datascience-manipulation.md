@@ -248,6 +248,7 @@ table1
 <img src='/assets/meltdata2.PNG' width = 300 >
 
 >해당 데이터프레임의 컬럼명을 바꿔주자. 
+
 ```py
 table1 = table1.rename(columns = {'index':'row',
                          'variable':'columns',
