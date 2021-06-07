@@ -143,7 +143,7 @@ print('CAPEX type:',df3['CAPEX'].dtypes) #output: CAPEX type: int64
 
 #### 2. 데이터프레임 필터링!
 
-##### 1. 수치형 데이터 필터링
+##### 2-1. 수치형 데이터 필터링
 
 ```py
 #필터링 조건! () 씌우는 것 주의하자.
@@ -177,7 +177,7 @@ A[((A['ID']>2) & (A['ID']<=4))]
 
 <img src='/assets/123.PNG' width = 300  >
 
-##### 2. 범주형 데이터 필터링 
+##### 2-2. 범주형 데이터 필터링 
 
 >isin() or df['컬럼명']=='데이터 명'
 
@@ -218,7 +218,7 @@ df2
 
 <img src='/assets/tidywidy.PNG' width = 600  >
 
-##### wide -> tidy
+##### 3-1. wide -> tidy
 
 widy -> tidy 데이터로 바꾸는 것을 보여드리기 위해 아래의 데이터를 사용하겠습니다.
 
@@ -258,7 +258,7 @@ table1
 
 <img src='/assets/meltdata3.PNG' width = 300 >
 
-##### tidy -> wide
+##### 3-2. tidy -> wide
 
 tidy -> wide 데이터로 바뀌기 위해서 **pivot_table** 함수를 사용할 것이다.
 
