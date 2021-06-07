@@ -1,17 +1,18 @@
 ---
 title : "[Data Science] - 통계 개념 정리"
 excerpt: "Data Science에 필요한 기본 통계 개념에 대해 알아보자."
+author_profile : true
+sidebar_main : true  
+toc : true 
+use_math: true
 category :
     - Data Science 
 tag : 
     - Statistics
     - 경험주의
     - Probablity
-author_profile : true
-sidebar_main : true  
-toc : true 
-use_math: true
-last_modified_at: 2021-06-07T23:08-24:00
+
+# last_modified_at: 2021-06-07T23:08-24:00
 ---
 
 <img src='/assets/datascience.png' width = 1000 height = 800 >
