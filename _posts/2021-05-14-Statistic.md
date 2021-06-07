@@ -5,11 +5,12 @@ category :
     - Data Science 
 tag : 
     - Statistics
-toc: true   
-author_profile : true
-sidebar_main : False  
-toc : true 
-use_math: true
+    - 경험주의
+    - Probablity
+author_profile : True
+sidebar_main : True  
+toc : True 
+use_math: True
 
 last_modified_at: 2021-06-07T23:08-24:00
 ---
