@@ -93,7 +93,7 @@ B = pd.DataFrame({'ID' : [2, 3, 4, 5],
 ```py
 pd.merge(A,B,how='inner',on='ID')
 ```
-<img src='/assets/merge1.png' width = 300 >
+<img src='/assets/merge1.PNG' width = 300 >
 
 >how = 'outer' 옵션 사용
 
@@ -103,7 +103,7 @@ pd.merge(A,B,how='inner',on='ID')
 pd.merge(A,B,how='outer',on='ID')
 ```
 
-<img src='/assets/merge2.png' width = 300  >
+<img src='/assets/merge2.PNG' width = 300  >
 
 >how = 'left'
 
@@ -114,7 +114,7 @@ pd.merge(A,B,how='left',on='ID')
 #on 옵션을 사용하지 않는다면 merge하는 값의 좌측이 기준이 된다.
 ```
 
-<img src='/assets/merge3.png' width = 300  >
+<img src='/assets/merge3.PNG' width = 300  >
 
 >how = 'right'
 
@@ -124,7 +124,7 @@ pd.merge(A,B,how='left',on='ID')
 pd.merge(A,B,how='left',on='ID')
 ```
 
-<img src='/assets/merge4.png' width = 300  >
+<img src='/assets/merge4.PNG' width = 300  >
 
 >데이터프레임의 특정 열 데이터를 numeric type으로 변환하기!
 
@@ -155,7 +155,7 @@ df_subset
 #output:
 ```
 
-<img src='/assets/mn.png' width = 300  >
+<img src='/assets/mn.PNG' width = 300  >
 
 ```py
 
@@ -169,7 +169,7 @@ condition 변수를 사용하지 않고 바로 적용할 수 있다.
 A[((A['ID']>2) & (A['ID']<=4))]
 ```
 
-<img src='/assets/123.png' width = 300  >
+<img src='/assets/123.PNG' width = 300  >
 
 2. 범주형 데이터 필터링 
 
@@ -181,13 +181,13 @@ A[A['이름'].isin(['김지영'])]
 A[A['이름']=='김지영']
 ```
 
-<img src='/assets/isin.png' width = 300  >
+<img src='/assets/isin.PNG' width = 300  >
 
 >df.groupby('컬럼명').mean or sum ....
 
 특정 컬럼을 기준으로 다른 수치형 데이터의 mean 값 또는 전체 합 값을 보여준다. 
 
-<img src='/assets/groupby.png' width = 300  >
+<img src='/assets/groupby.PNG' width = 300  >
 
 위의 그림은 테마를 기준으로 육계,주류의 매출액의 평균과 순이익률의 평균을 구했다.
 
@@ -202,4 +202,4 @@ df2 = pd.DataFrame(
 df2
 ```
 
-<img src='/assets/종목코드8.png' width = 300  >
+<img src='/assets/종목코드8.PNG' width = 300  >
