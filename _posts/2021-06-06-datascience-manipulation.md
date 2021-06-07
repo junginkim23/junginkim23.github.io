@@ -68,6 +68,15 @@ pd.concat([x,y],axis=1)
 merge는 concat과 달리 공통된 부분을 기반으로 합치기가 주요 용도이다.
 
 Merge를 설명하기 위해 사용할 데이터프레임은 아래와 같다. 
+```py
+import pandas as pd
+
+A = pd.DataFrame({'ID' : [1, 2, 3, 4], 
+                  '이름' : ['김정인', '이준모', '정우진','김지영']})
+B = pd.DataFrame({'ID' : [2, 3, 4, 5], 
+                  '주소' : ['분당', '대전', '용산', '분당']})
+```
+
 <img src='/assets/C.PNG' width = 300 >
 <img src='/assets/B.PNG' width = 300 >
 
@@ -82,13 +91,6 @@ Merge를 설명하기 위해 사용할 데이터프레임은 아래와 같다.
 **how = inner** 옵션은 df.merge()의 default 옵션이다. 결합하고자 하는 데이터프레임내에 **모두 값이 있는 행**만을 병합한다. **교집합**과 유사하다.   
 
 ```py
-import pandas as pd
-
-A = pd.DataFrame({'ID' : [1, 2, 3, 4], 
-                  '이름' : ['김정인', '이준모', '정우진','김지영']})
-B = pd.DataFrame({'ID' : [2, 3, 4, 5],
-                  '주소' : ['분당', '대전', '용산', '분당']})
-
 pd.merge(A,B,how='inner',on='ID')
 ```
 <img src='/assets/merge1.png' width = 300  >
@@ -98,13 +100,6 @@ pd.merge(A,B,how='inner',on='ID')
 결합하고자 하는 데이터프레임내에 **하나라도 데이터가 있는 행**들을 병합한다. **합집합**과 유사하다.
 
 ```py
-import pandas as pd
-
-A = pd.DataFrame({'ID' : [1, 2, 3, 4], 
-                  '이름' : ['김정인', '이준모', '정우진','김지영']})
-B = pd.DataFrame({'ID' : [2, 3, 4, 5], 
-                  '주소' : ['분당', '대전', '용산', '분당']})
-
 pd.merge(A,B,how='outer',on='ID')
 ```
 <img src='/assets/merge2.png' width = 300  >
@@ -114,13 +109,6 @@ pd.merge(A,B,how='outer',on='ID')
 **key 값**을 기준으로 결합하고자 하는 데이터프레임의 **왼쪽 값**에 맞추어 결합되어 진다.
 
 ```py
-import pandas as pd
-
-A = pd.DataFrame({'ID' : [1, 2, 3, 4], 
-                  '이름' : ['김정인', '이준모', '정우진','김지영']})
-B = pd.DataFrame({'ID' : [2, 3, 4, 5], 
-                  '주소' : ['분당', '대전', '용산', '분당']})
-
 pd.merge(A,B,how='left',on='ID') 
 #on 옵션을 사용하지 않는다면 merge하는 값의 좌측이 기준이 된다.
 ```
@@ -132,13 +120,6 @@ pd.merge(A,B,how='left',on='ID')
 **key 값**을 기준으로 결합하고자 하는 데이터프레임의 **오른쪽 값**에 맞추어 결합되어 진다.
 
 ```py
-import pandas as pd
-
-A = pd.DataFrame({'ID' : [1, 2, 3, 4], 
-                  '이름' : ['김정인', '이준모', '정우진','김지영']})
-B = pd.DataFrame({'ID' : [2, 3, 4, 5], 
-                  '주소' : ['분당', '대전', '용산', '분당']})
-
 pd.merge(A,B,how='left',on='ID')
 ```
 <img src='/assets/merge4.png' width = 300  >
