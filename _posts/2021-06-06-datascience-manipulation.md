@@ -129,10 +129,9 @@ pd.merge(A,B,how='left',on='ID')
 >데이터프레임의 특정 열 데이터를 numeric type으로 변환하기!
 
 ```py 
-print('CAPEX type:',df3['CAPEX'].dtypes)
-df3['CAPEX'] = pd.to_numeric(df3['CAPEX']) #output: CAPEX type: object
-print('CAPEX type:',df3['CAPEX'].dtypes)
-df3['CAPEX'] = pd.to_numeric(df3['CAPEX']) #output: CAPEX type: int64
+print('CAPEX type:',df3['CAPEX'].dtypes) #output: CAPEX type: object
+df3['CAPEX'] = pd.to_numeric(df3['CAPEX']) 
+print('CAPEX type:',df3['CAPEX'].dtypes) #output: CAPEX type: int64
 ```
 
 >데이터프레임 필터링!
