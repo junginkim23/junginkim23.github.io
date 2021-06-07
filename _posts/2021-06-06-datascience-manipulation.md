@@ -218,7 +218,7 @@ df2
 
 <img src='/assets/tidywidy.PNG' width = 600  >
 
-##### wide -> tidy(melt())
+##### wide -> tidy
 
 widy -> tidy 데이터로 바꾸는 것을 보여드리기 위해 아래의 데이터를 사용하겠습니다.
 
