@@ -158,7 +158,6 @@ df_subset
 <img src='/assets/mn.PNG' width = 300  >
 
 ```py
-
 condition에 들어가는 조건을 하나만 설정할 필요는 없고 &(and) or |(or)를 
 이용하여 여러 조건을 동시에 설정할 수 있다.
 
@@ -205,3 +204,75 @@ df2
 ```
 
 <img src='/assets/종목코드8.PNG' width = 300  >
+
+#### 3. Tidy Data? 
+
+**행에는 관측**, **열에는 관측에서 표현되는 feature**를 나타낸다. 아래의 **widy data**는 아직 정제되지 않은 **야생의 데이터**이다. 특정 라이브러리에서 데이터를 사용하기 위해서는 오른쪽의 **tidy 데이터**의 형태로 변환해주어야 한다. 예를 들어, 데이터 시각화에 사용되는 **Seaborn 라이브러리** 같은 경우 **tidy data**를 필요로 한다.
+
+<img src='/assets/tidywidy.PNG' width = 600  >
+
+##### wide -> tidy(melt())
+
+widy -> tidy 데이터로 바꾸는 것을 보여드리기 위해 아래의 데이터를 사용하겠습니다.
+
+```py
+import pandas as pd
+import numpy as np
+
+table1 = pd.DataFrame(
+    [[np.nan, 2],
+     [16,    11], 
+     [3,      1]],
+    index=['X', 'Y', 'Z'], 
+    columns=['A', 'B'])
+
+table1 = table1.reset_index()
+table1
+```
+<img src='/assets/meltdata.PNG' width = 300 >
+
+본격적으로 **melt** 함수를 사용해보겠습니다. 해당 함수내에 id_vars 옵션은 기준이 되는 컬럼을, value_var에는 하나의 행에 하나의 관측이 보이게 하기 위해 나눠줘야 하는 컬럼을 넣어준다.
+
+```py
+table1.melt(id_vars='index',value_vars=['A','B'])
+```
+
+<img src='/assets/meltdata2.PNG' width = 300 >
+
+>해당 데이터프레임의 컬럼명을 바꿔주자. 
+```py
+table1 = table1.rename(columns = {'index':'row',
+                         'variable':'columns',
+                         'value':'value'})
+table1
+```
+
+<img src='/assets/meltdata3.PNG' width = 300 >
+
+##### tidy -> wide
+
+tidy -> wide 데이터로 바뀌기 위해서 **pivot_table** 함수를 사용할 것이다.
+
+```py
+# 파라미터에 대한 설명
+# index: unique identifier
+# columns: "wide" 데이터에서 column별로 다르게 하고자 하는 값.
+# values: 결과값이 들어가는 곳 (wide 데이터프레임의 내용에 들어갈 값)
+wide = tidy1.pivot_table(index = 'row', columns = 'column', values = 'value')
+wide
+```
+
+<img src='/assets/meltdata4.PNG' width = 300 >
+
+>tidy 데이터의 목적 - seaborn 
+
+```py
+#Seaborn의 기능 중 한가지 예시입니다.
+import seaborn as sns
+sns.catplot(x = 'row', y = 'value'
+          , col = 'column', kind = 'bar'
+          , data = table1, height = 2); 
+#마지막에 ';'를 붙이면 '<seaborn.axisgrid.FacetGrid at 0x7fd7ac2b7350>' 이것이 출력되지 않는다.
+```
+
+<img src='/assets/tidydata2.PNG' width = 300 >
