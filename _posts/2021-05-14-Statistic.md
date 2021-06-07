@@ -11,8 +11,10 @@ tag :
 author_profile : true
 sidebar_main : true  
 toc : true 
+toc_sticky: true
 use_math: true
 
+last_modified_at: 2019-07-03T12:40-13:00
 ---
 
 <img src='/assets/datascience.png' width = 1000 height = 800 >
