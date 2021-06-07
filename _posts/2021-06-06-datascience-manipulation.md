@@ -5,6 +5,13 @@ category :
 tag : 
     - EDA
     - Data-Processing
+    - tidy data 
+    - wide data
+    - filtering
+    - groupby
+    - isin
+    - melt
+    - pivot_table
 author_profile : true
 sidebar_main : False  
 toc : true 
@@ -234,7 +241,8 @@ table1
 본격적으로 **melt** 함수를 사용해보겠습니다. 해당 함수내에 id_vars 옵션은 기준이 되는 컬럼을, value_var에는 하나의 행에 하나의 관측이 보이게 하기 위해 나눠줘야 하는 컬럼을 넣어준다.
 
 ```py
-table1.melt(id_vars='index',value_vars=['A','B'])
+table1 = table1.melt(id_vars='index',value_vars=['A','B'])
+table1
 ```
 
 <img src='/assets/meltdata2.PNG' width = 300 >
@@ -258,7 +266,7 @@ tidy -> wide 데이터로 바뀌기 위해서 **pivot_table** 함수를 사용�
 # index: unique identifier
 # columns: "wide" 데이터에서 column별로 다르게 하고자 하는 값.
 # values: 결과값이 들어가는 곳 (wide 데이터프레임의 내용에 들어갈 값)
-wide = tidy1.pivot_table(index = 'row', columns = 'column', values = 'value')
+wide = table1.pivot_table(index = 'row', columns = 'column', values = 'value')
 wide
 ```
 
