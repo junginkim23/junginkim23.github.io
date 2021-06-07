@@ -1,7 +1,8 @@
 ---
-title : "[Data Science] - Statistics"
+title : "[Data Science] - 통계 개념 정리"
 category :
     - Data Science 
+        - Statistics
 tag : 
     - Statistics
 author_profile : true
