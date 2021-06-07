@@ -246,3 +246,11 @@ for cate in select_column:
      train_data = train_data.drop(cate,axis=1)
    return train_data.copy()
 ```
+
+##### 14. pd.DataFrame().hist()
+
+```py
+pd.DataFrame(np.random.binomial(n = 1, p = 0.5, size = 100)).hist();
+pd.DataFrame(np.random.binomial(n = 1, p = 0.5, size = 1000)).hist();
+```
+<img src='/assets/hist.PNG' width = 1000 height = 500 >

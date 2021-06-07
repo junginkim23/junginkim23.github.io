@@ -8,6 +8,7 @@ tag :
     - matrix
     - numpy
     - tensor
+    - random
 author_profile : true
 sidebar_main : False  
 toc : true 
@@ -142,4 +143,30 @@ array([[[1, 2],
 ##### np.linalg.matrix_rank(array)
 ```py
 array의 rank를 반환해준다.
+```
+
+##### np.random
+
+>np.random.binomial()
+
+0 또는 1의 값이 p(확률) 옵션에 따라 size 옵션에 지정된 수만큼을 가진 배열을 생성한다. 
+
+```py
+np.random.binomial(n = 1, p = 0.5, size = 100)
+#output:
+array([1, 1, 0, 1, 1, 1, 0, 1, 0, 1, 0, 1, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0,
+       0, 1, 1, 1, 1, 0, 1, 1, 0, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 1, 1, 1,
+       0, 0, 1, 0, 1, 1, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 1, 0, 1, 0, 1,
+       0, 1, 1, 0, 1, 1, 1, 1, 1, 0, 0, 1, 1, 1, 0, 0, 0, 1, 0, 0, 1, 0,
+       0, 1, 1, 1, 0, 1, 0, 0, 1, 1, 0, 0])
+```
+
+>np.random.randint()
+
+0 ~ 100 사이에 20 개의 정수를 추출해 배열로 생성한다.
+
+```py
+np.random.randint(0,100,20)
+#output:
+array([84, 57, 46, 98, 18,  9, 98, 84,  1, 48, 74, 15, 54, 29, 22,  6, 72,66, 32, 79])
 ```
