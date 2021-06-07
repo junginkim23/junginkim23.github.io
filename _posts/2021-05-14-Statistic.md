@@ -7,11 +7,10 @@ tag :
     - Statistics
     - 경험주의
     - Probablity
-author_profile : True
-sidebar_main : True  
-toc : True 
-use_math: True
-
+author_profile : true
+sidebar_main : true  
+toc : true 
+use_math: true
 last_modified_at: 2021-06-07T23:08-24:00
 ---
 
