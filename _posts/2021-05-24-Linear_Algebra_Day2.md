@@ -10,6 +10,8 @@ author_profile : true
 sidebar_main : False  
 toc : true 
 use_math: true
+
+{% last_modified_at %Y:%B:%A:%d:%S:%R %}
 ---
 
 <img src='/assets/datascience.png' width = 1000 height = 800 >
