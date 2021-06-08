@@ -11,7 +11,8 @@ sidebar_main : False
 toc : true 
 use_math: true
 
-{% last_modified_at %Y:%B:%A:%d:%S:%R %}
+last-modified-at:
+    date-format: '%08-%06-%2021'
 ---
 
 <img src='/assets/datascience.png' width = 1000 height = 800 >
