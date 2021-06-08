@@ -9,7 +9,7 @@ tag :
     - 경험주의
     - Probablity
   
-last_modified_at: 2019-08-11T20:00-20:30
+
 toc : true 
 toc_sticky: true
 
