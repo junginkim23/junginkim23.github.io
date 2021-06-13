@@ -32,7 +32,7 @@ import pandas as pd
 df = pd.read_csv('https://ds-lecture-data.s3.ap-northeast-2.\amazonaws.com/kc_house_data/kc_house_data.csv')
 df.head()
 ```
-<img src='/assets/dataframe4.PNG' width = 1000 >
+<img src='/assets/dataframe4.PNG' width = 1000 height = 130 >
 
 <br/>
 
@@ -48,23 +48,26 @@ df.head()
 <img src='/assets/pr.PNG' width = 1000 >
 
 >Negative Relationshop
-:독립변수가 증가함에 따라 종속변수가 감소하는 관계를 뜻한다.
+: 독립변수가 증가함에 따라 종속변수가 감소하는 관계를 뜻한다.
 <img src='/assets/nr.PNG' width = 1000 >
 
 ### 1-2. coefficient & intercept 
 >회귀 직선
+
 $\displaystyle {\hat {y}} =\beta_0 + \beta_1{x}$
 
 해당 직선에 $\beta_0(기울기)$와 $\beta_1(회귀 계수)$의 의미를 파악해보자. 
 
 
 > 종속변수: price, 독립변수: sqft_living
+
 ```py
 import numpy as np
 print(f'y = {model_sqft.coef_[0][0]:.02f}x - {np.abs(model_sqft.intercept_[0]):.02f}')
 #output 
 y = 280.62x - 43580.74
 ```
+
 독립변수(sqft_living)와 종속변수(price)간의 회귀직선에서 회귀계수와 y절편을 확인할 수 있다. 회귀계수를 통해 알 수 있는 내용은 1 sqft당 280$가 증가한다고 해석할 수 있다. **종속변수와 독립변수가 서로 비례 관계임을 확인할 수 있다.**
 
 
@@ -73,14 +76,7 @@ y = 280.62x - 43580.74
 <img src='/assets/regressionline.PNG' width = 600 >
 
 >[OLS 구하는 공식]
-
-$\beta =\displaystyle {\bar {y}}-\alpha{\bar {x}}$
-
-$\alpha ={\frac {S_{xy}}{S_{xx}}}$
-
-${\displaystyle S_{xy}=\sum _{i=1}^{n}(x_{i}-{\bar {x}})(y_{i}-{\bar {y}})}$ 
-
-${\displaystyle S_{xx}=\sum _{i=1}^{n}(x_{i}-{\bar {x}})^{2}}$
+<img src='/assets/ols.PNG' width = 600 >
 
 우리가 머신러닝 방법 중에 하나인 Linear Regression을 통해 하고자 하는 것은 데이터의 **예측**이다. 예측을 위해 주어진 데이터에 가장 **fit**한 선형회귀직선을 해당 방법을 이용해 구하려고 하는 것이다. 
 
@@ -94,7 +90,7 @@ ${\displaystyle S_{xx}=\sum _{i=1}^{n}(x_{i}-{\bar {x}})^{2}}$
 
 
 
->RSS & SSE & Cost Function?
+### 2-1. RSS & SSE & Cost Function?
 
 OLS에 대해 공부하다보면 **RSS, SSE, Cost Function**이란 용어를 확인할 수 있을 것이다. 각 용어가 무엇을 의미하는지 살펴보겠다. 
 
