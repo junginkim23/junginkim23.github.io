@@ -54,7 +54,7 @@ df.head()
 ### 1-2. coefficient & intercept 
 >회귀 직선
 
-$\displaystyle {\hat {y}} =\beta_0 + \beta_1{x}$
+<img src='/assets/s.PNG' width = 150 >
 
 해당 직선에 $\beta_0(기울기)$와 $\beta_1(회귀 계수)$의 의미를 파악해보자. 
 
@@ -77,7 +77,7 @@ y = 280.62x - 43580.74
 
 **[OLS 구하는 공식]**
 
-<img src='/assets/ols.PNG' width = 600 >
+<img src='/assets/ols.PNG' width = 400 >
 
 **OLS**란 선형회귀모델을 통해 구한 회귀직선(예측값)과 실제값 사이의 거리(에러 or 잔차)의 제곱의 합이 최소가 되는 것을 찾는 방법이다. 
 
@@ -86,7 +86,7 @@ y = 280.62x - 43580.74
 OLS 방법을 이용해 학습을 진행하고, 그 결과 얻어진 모델을 이용해 주어져 있지 않는 데이터를 **보간**하여 값을 예측하게 되는 것이다. 
 
 >보간(Interpolate)란?
-기존 데이터 범위 사이에 없는 범위를 예측하는 것을 말한다.
+: 기존 데이터 범위 사이에 없는 범위를 예측하는 것을 말한다.
 
 ### 2-1. RSS & SSE & Cost Function?
 
