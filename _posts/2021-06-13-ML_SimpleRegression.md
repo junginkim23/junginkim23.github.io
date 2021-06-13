@@ -73,6 +73,7 @@ y = 280.62x - 43580.74
 <img src='/assets/regressionline.PNG' width = 600 >
 
 >[OLS 구하는 공식]
+
 $\beta =\displaystyle {\bar {y}}-\alpha{\bar {x}}$,
 $\alpha ={\frac {S_{xy}}{S_{xx}}}$
 ${\displaystyle S_{xy}=\sum _{i=1}^{n}(x_{i}-{\bar {x}})(y_{i}-{\bar {y}})}$, ${\displaystyle S_{xx}=\sum _{i=1}^{n}(x_{i}-{\bar {x}})^{2}}$
