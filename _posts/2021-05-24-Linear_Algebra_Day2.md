@@ -6,11 +6,8 @@ tag :
     - Linear Algebra
     - covariance
     - Linear Projection
-author_profile : true
-sidebar_main : False  
 toc : true 
-use_math: true
-
+toc_sticky: true
 
 ---
 

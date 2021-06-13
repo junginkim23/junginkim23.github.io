@@ -4,10 +4,8 @@ category :
     - Data Science 
 tag : 
     - Feature Engineering
-author_profile : true
-sidebar_main : False  
 toc : true 
-use_math: true
+toc_sticky: true
 ---
 
 <img src='/assets/datascience.png' width = 1000 height = 800 >

@@ -6,10 +6,8 @@ category :
 tag : 
     - Pandas
     - dataframe
-author_profile : true
-sidebar_main : False  
 toc : true 
-use_math: true
+toc_sticky: true
 ---
 
 
