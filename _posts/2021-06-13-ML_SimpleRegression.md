@@ -74,9 +74,13 @@ y = 280.62x - 43580.74
 
 >[OLS 구하는 공식]
 
-$\beta =\displaystyle {\bar {y}}-\alpha{\bar {x}}$,
+$\beta =\displaystyle {\bar {y}}-\alpha{\bar {x}}$
+
 $\alpha ={\frac {S_{xy}}{S_{xx}}}$
-${\displaystyle S_{xy}=\sum _{i=1}^{n}(x_{i}-{\bar {x}})(y_{i}-{\bar {y}})}$, ${\displaystyle S_{xx}=\sum _{i=1}^{n}(x_{i}-{\bar {x}})^{2}}$
+
+${\displaystyle S_{xy}=\sum _{i=1}^{n}(x_{i}-{\bar {x}})(y_{i}-{\bar {y}})}$ 
+
+${\displaystyle S_{xx}=\sum _{i=1}^{n}(x_{i}-{\bar {x}})^{2}}$
 
 우리가 머신러닝 방법 중에 하나인 Linear Regression을 통해 하고자 하는 것은 데이터의 **예측**이다. 예측을 위해 주어진 데이터에 가장 **fit**한 선형회귀직선을 해당 방법을 이용해 구하려고 하는 것이다. 
 
