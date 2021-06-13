@@ -9,16 +9,12 @@ header:
 category :
     - ML
 tag : 
-    - EDA
-    - Data-Processing
-    - tidy data 
-    - wide data
-    - filtering
-    - groupby
-    - isin
-    - melt
-    - pivot_table
-
+    - Linear Regression
+    - Independent variable
+    - Dependent variable
+    - Positive Relationship
+    - Negative Relationship
+    - Ordinary Least Regression
 ---
 
 # 개요
@@ -44,7 +40,7 @@ Negative Relationshop
 
 ## Regression Line 
 
-<img src='/assets/regressionline.png' width = 600 >
+<img src='/assets/regressionline.PNG' width = 600 >
 
 독립변수와 종속변수의 따라 놓여져 있는 데이터에 가장 적합한 회귀선을 구한 그림이다. 회귀선을 구하기 위해서는 **least square method**를 사용한다.
 
