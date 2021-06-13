@@ -14,11 +14,11 @@ main:
   #   url: /sitemap/
 
 
-  # sidebar-contents:
-  # - title: "Data Science"
-  #   children:
-  #     - title: "Machine Learning"
-  #       url: /categories/#ML
+  sidebar-contents:
+  - title: "Data Science"
+    children:
+      - title: "Machine Learning"
+        url: /categories/#ml
   #     - title: "Web-related"
   #       url: /categories/#web
   #     - title: "Pythonic"
