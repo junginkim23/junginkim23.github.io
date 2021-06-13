@@ -150,3 +150,20 @@ cols = ['GrLivArea', 'LotArea','SalePrice']
 sns.pairplot(df[cols], height=2);
 ```
 <img src='/assets/pairplot.PNG' width = 500 >
+
+## 4. 머신러닝?
+만약, 머신러닝 자체가 이해가 잘 가지 않는다면 아래 그림을 보면 이해하는데 도움이 될 것입니다.
+
+<img src="https://ogrisel.github.io/scikit-learn.org/sklearn-tutorial/_images/plot_ML_flow_chart_12.png" width="75%">
+
+**[process]**
+1. train dataset을 feature, target data로 나눈다.
+2. 나눈 train data를 이용해 우리가 사용할 머신러닝 모델을 학습시킨다.
+3. 학습된 모델을 이용해 test data의 feature data로 우리가 예측하고자 하는 target data를 예측한다. 
+4. 결과를 확인한다. 
+
+### 4-1. 머신러닝의 새로운 패러다임 
+
+기존의 프로그래밍은 프로그래머가 넣어주는 **규칙과 데이터**를 통해 원하는 결과를 구했습니다. 하지만 머신러닝은 **데이터와 답**을 넣어주고 **규칙**을 구하는 새로운 패러다임을 가지고 왔습니다.
+
+<img src="https://pbs.twimg.com/media/ECQDlFOWkAEJzlY.jpg" width="80%">
