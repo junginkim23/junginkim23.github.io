@@ -2,9 +2,9 @@
 title : "[ML] - Simple Regression"
 excerpt: "Simple Regression에 대해 알아보자."
 toc : true 
-toc_sticky: true
-# header:
-#     teaser: /assets/ml.jpg
+# toc_sticky: true
+# # header:
+# #     teaser: /assets/ml.jpg
 
 category :
     - ML
