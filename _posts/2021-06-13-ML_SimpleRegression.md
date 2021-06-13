@@ -19,4 +19,8 @@ tag :
     - pivot_table
 
 ---
+
+
 <img src='/assets/ml.jpg' width = 1000 height = 800 >
+
+- hi, what' up bro? 
