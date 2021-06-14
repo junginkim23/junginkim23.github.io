@@ -1,5 +1,5 @@
 ---
-title : "[Python] - Seaborn"
+title : "[Python] Seaborn"
 excerpt: "seaborn 라이브러리 활용 시각화"
 category :
     - Python

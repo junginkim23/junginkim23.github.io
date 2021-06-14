@@ -2,11 +2,11 @@
 main:
   # - title: "Quick-Start Guide"
   #   url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
-  - title: "About ME"
+  - title: "소개"
     url: /about/
-  - title: "Posts"
+  - title: "카테고리"
     url: /categories/
-  - title: 'Search'
+  - title: '검색'
     url: /search/
   # - title: "Sample Collections"
   #   url: /collection-archive/

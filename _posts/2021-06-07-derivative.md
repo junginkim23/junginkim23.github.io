@@ -1,5 +1,5 @@
 ---
-title : "[Data Science] - Basic Derivative"
+title : "[Data Science] Basic Derivative"
 category :
     - Data Science 
 tag : 

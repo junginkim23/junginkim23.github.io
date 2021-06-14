@@ -1,5 +1,5 @@
 ---
-title : "[Python] - random seed?"
+title : "[Python] random seed?"
 category :
     - Python
 tag : 

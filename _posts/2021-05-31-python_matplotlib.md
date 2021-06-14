@@ -1,5 +1,5 @@
 ---
-title : "[Python] - matplotlib"
+title : "[Python] matplotlib"
 excerpt: "matplotlib 라이브러리 활용 시각화"
 category :
     - Python

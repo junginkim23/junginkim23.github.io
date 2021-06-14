@@ -1,5 +1,5 @@
 ---
-title : "[Data Science] - 통계 개념 정리"
+title : "[Data Science] 통계 개념 정리"
 excerpt: "Data Science에 필요한 기본 통계 개념에 대해 알아보자."
 
 category :

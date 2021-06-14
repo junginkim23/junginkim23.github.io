@@ -1,5 +1,5 @@
 ---
-title : "[ML] - Linear Regression"
+title : "[ML] Linear Regression"
 excerpt: "선현 회귀 모델에 대해 알아보도록 하겠습니다."
 toc : true 
 toc_sticky: true

@@ -1,5 +1,5 @@
 ---
-title : "[Data Science] - statistic1"
+title : "[Data Science] statistic1"
 category :
     - Data Science 
 tag : 
