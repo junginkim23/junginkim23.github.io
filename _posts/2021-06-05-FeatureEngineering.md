@@ -1,5 +1,6 @@
 ---
 title : "[Data Science] - Feature Engineering"
+excerpt: "데이터 분석의 핵심 Feature Engineering."
 category :
     - Data Science 
 tag : 
