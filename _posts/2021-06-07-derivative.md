@@ -3,7 +3,7 @@ title : "[Data Science] Basic Derivative"
 header:
     teaser: /assets/datascience.png
 category :
-    - Data Science 
+    - DS 
 tag : 
     - deriative
     - basic

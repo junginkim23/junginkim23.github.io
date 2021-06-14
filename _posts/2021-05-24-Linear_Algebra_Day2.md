@@ -4,7 +4,7 @@ excerpt: "선형대수학 기초개념 2"
 header:
     teaser: /assets/datascience.png
 category :
-    - Data Science 
+    - DS 
 tag : 
     - Linear Algebra
     - covariance

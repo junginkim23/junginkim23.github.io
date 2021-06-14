@@ -3,7 +3,7 @@ title : "[Data Science] statistic1"
 header:
     teaser: /assets/datascience.png
 category :
-    - Data Science 
+    - DS 
 tag : 
     - hypothesis test
     - statistic

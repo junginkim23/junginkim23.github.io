@@ -4,7 +4,7 @@ excerpt: "Data Science에 필요한 기본 통계 개념에 대해 알아보자.
 header:
     teaser: /assets/datascience.png
 category :
-    - Data Science 
+    - DS
 tag : 
     - Statistics
     - 경험주의
