@@ -5,7 +5,9 @@ toc : true
 toc_sticky: true
 header:
     teaser: /assets/ml.jpg
-
+author_profile: true
+sidebar:
+  nav: "sidebar-contents"
 category :
     - ML
 tag : 

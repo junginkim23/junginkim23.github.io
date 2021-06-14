@@ -5,6 +5,8 @@ title: "Kim Jung In"
 # header:
 #   overlay_image: /assets/who.jpg
 author_profile: true
+sidebar:
+  nav: "sidebar-contents"
 ---
 
 <img src='/assets/내사진2.jpg' width = 500>

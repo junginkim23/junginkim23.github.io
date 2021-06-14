@@ -2,6 +2,9 @@
 title : "[Python] random seed?"
 header:
     teaser: /assets/python.jpg
+author_profile: true
+sidebar:
+  nav: "sidebar-contents"
 category :
     - Python
 tag : 
