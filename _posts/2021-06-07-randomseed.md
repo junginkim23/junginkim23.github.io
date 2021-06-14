@@ -1,5 +1,7 @@
 ---
 title : "[Python] random seed?"
+header:
+    teaser: /assets/python.jpg
 category :
     - Python
 tag : 

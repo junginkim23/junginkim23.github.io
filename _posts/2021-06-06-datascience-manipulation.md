@@ -1,6 +1,8 @@
 ---
 title : "[Data Science] Data Manipulation"
 excerpt: "merge, concat 등 데이터 조작 방법 활용"
+header:
+    teaser: /assets/datascience.png
 category :
     - Data Science 
 tag : 

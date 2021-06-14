@@ -1,6 +1,8 @@
 ---
 title : "[Data Science] Linear Algebra"
 excerpt: "선형대수학이 무엇인지, 벡터란 무엇인지 등 선형대수학의 기초 개념을 살펴보자."
+header:
+    teaser: /assets/datascience.png
 category :
     - Data Science 
 tag : 

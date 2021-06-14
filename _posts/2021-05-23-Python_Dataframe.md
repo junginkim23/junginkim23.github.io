@@ -1,6 +1,8 @@
 ---
 title : "[Python] dataframe"
 excerpt: "파이썬의 모듈(Module)을 기초부터 확실하게 알아보자"
+header:
+    teaser: /assets/python.jpg
 category :
     - Python
 tag : 
