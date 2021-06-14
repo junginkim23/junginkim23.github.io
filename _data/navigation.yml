@@ -2,16 +2,17 @@
 main:
   # - title: "Quick-Start Guide"
   #   url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
+  # - title: "Sample Collections"
+  #   url: /collection-archive/
+  # - title: "Sitemap"
+  #   url: /sitemap/
   - title: "소개"
     url: /about/
   - title: "카테고리"
     url: /categories/
   - title: '검색'
     url: /search/
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
-  # - title: "Sitemap"
-  #   url: /sitemap/
+ 
 
 
   sidebar-contents:
@@ -27,7 +28,7 @@ main:
         url: /categories/#python
   - title: "Study English"
     children:
-      - title: "Tutoring"
+      - title: "Tutoring" 
         url: /categories/#english
   - title: "궁금증 해결"
     children:
