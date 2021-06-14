@@ -3,6 +3,9 @@ title : "[Python] 최신 버전으로 업데이트하기"
 excerpt: "라이브러리의 특정 변수 또는 함수를 사용할 때 version up이 되어 있지 않아 발생하는 오류를 해결해보자."
 toc : true 
 toc_sticky: true
+author_profile: true
+sidebar:
+  nav: "Programming Language"
 header:
     teaser: /assets/python.jpg
 
