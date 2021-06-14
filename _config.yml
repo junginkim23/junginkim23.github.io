@@ -303,7 +303,7 @@ defaults:
       sidebar:
         title: 카테고리
         nav: "sidebar-contents"
-  sidebar:
+sidebar:
   - title: "Title"
     text: "Some text here."
   - title: "Another Title"
