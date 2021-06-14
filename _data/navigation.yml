@@ -15,7 +15,7 @@ main:
  
 
 
-  sidebar-contents:
+sidebar-contents:
   - title: "Data"
     children:
       - title: "Machine Learning"
