@@ -4,8 +4,6 @@ permalink: /search/
 layout: search
 author_profile: true
 taxonomy: search
-sidebar:
-  nav: "sidebar-contents"
 ---
 
 키워드를 입력하세요.  
