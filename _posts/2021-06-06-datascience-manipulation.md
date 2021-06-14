@@ -3,9 +3,9 @@ title : "[Data Science] Data Manipulation"
 excerpt: "merge, concat 등 데이터 조작 방법 활용"
 header:
     teaser: /assets/datascience.png
-author_profile: true
-sidebar:
-  nav: "sidebar-contents"
+# author_profile: true
+# sidebar:
+#   nav: "sidebar-contents"
 category :
     - DS
 tag : 

@@ -3,9 +3,9 @@ title : "[Data Science] Linear Algebra"
 excerpt: "선형대수학 기초개념 2"
 header:
     teaser: /assets/datascience.png
-author_profile: true
-sidebar:
-  nav: "sidebar-contents"
+# author_profile: true
+# sidebar:
+#   nav: "sidebar-contents"
 category :
     - DS 
 tag : 

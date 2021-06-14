@@ -3,9 +3,9 @@ title : "[Python] Seaborn"
 excerpt: "seaborn 라이브러리 활용 시각화"
 header:
     teaser: /assets/python.jpg
-author_profile: true
-sidebar:
-  nav: "sidebar-contents"
+# author_profile: true
+# sidebar:
+#   nav: "sidebar-contents"
 category :
     - Python
 tag : 

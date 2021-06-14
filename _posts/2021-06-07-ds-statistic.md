@@ -2,9 +2,9 @@
 title : "[Data Science] statistic1"
 header:
     teaser: /assets/datascience.png
-author_profile: true
-sidebar:
-  nav: "sidebar-contents"
+# author_profile: true
+# sidebar:
+#   nav: "sidebar-contents"
 category :
     - DS 
 tag : 

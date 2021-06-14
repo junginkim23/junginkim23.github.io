@@ -3,9 +3,9 @@ title : "[Data Science] 통계 개념 정리"
 excerpt: "Data Science에 필요한 기본 통계 개념에 대해 알아보자."
 header:
     teaser: /assets/datascience.png
-author_profile: true
-sidebar:
-  nav: "sidebar-contents"
+# author_profile: true
+# sidebar:
+#   nav: "sidebar-contents"
 category :
     - DS
 tag : 

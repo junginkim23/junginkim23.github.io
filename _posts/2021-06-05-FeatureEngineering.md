@@ -3,9 +3,9 @@ title : "[Data Science] Feature Engineering"
 excerpt: "데이터 분석의 핵심 Feature Engineering."
 header:
     teaser: /assets/datascience.png
-author_profile: true
-sidebar:
-  nav: "sidebar-contents"
+# author_profile: true
+# sidebar:
+#   nav: "sidebar-contents"
 category :
     - DS
 tag : 
