@@ -4,7 +4,7 @@ excerpt: "데이터 분석의 핵심 Feature Engineering."
 header:
     teaser: /assets/datascience.png
 category :
-    - Data Science 
+    - DS
 tag : 
     - Feature Engineering
 toc : true 
