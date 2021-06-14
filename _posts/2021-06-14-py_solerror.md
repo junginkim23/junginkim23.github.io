@@ -5,8 +5,8 @@ toc : true
 toc_sticky: true
 author_profile: true
 sidebar:
-  nav: "Programming Language"
-  
+  nav: "sidebar-contents"
+
 header:
     teaser: /assets/python.jpg
 
