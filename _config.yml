@@ -105,7 +105,7 @@ author:
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:jungin_kim23@naver.com"
+      url: "mailto:jungin_kim23@korea.ac.kr"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
@@ -120,7 +120,7 @@ author:
       url: "https://github.com/junginkim23"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      url: "https://www.instagram.com/j_.__in/"
+      url: "https://www.instagram.com/in_gram94/"
 
 # Site Footer
 footer:
