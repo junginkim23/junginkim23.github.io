@@ -101,7 +101,7 @@ author:
   avatar           : "/assets/KakaoTalk_20210527_000007178.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Have a great one!"
   location         : "Seoul,Korea"
-  email            :  
+  email            : "jungin_kim23@korea.ac.kr"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
