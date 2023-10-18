@@ -15,7 +15,7 @@ main:
 
 
 sidebar-contents:
-  - title: "Data"
+  - title: "Neural Network"
     children:
       - title: "Machine Learning"
         url: /categories/#ml
